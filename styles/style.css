@@ -335,7 +335,7 @@
   }
 }
 
-.card__image_filter-one {
+/*.card__image_filter-one {
   filter: sepia(35%);
 }
 
@@ -365,4 +365,4 @@
 
 .blur {
   filter: blur(6px);
-}
+}*/
