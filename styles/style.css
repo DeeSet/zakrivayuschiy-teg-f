@@ -334,35 +334,3 @@
       padding: 30px;
   }
 }
-
-/*.card__image_filter-one {
-  filter: sepia(35%);
-}
-
-.card__image_filter-two {
-  filter: sepia(75%);
-}
-
-.card__image_filter-three {
-  filter: saturate(500%);
-}
-
-.card__image_filter-four {
-  filter: sepia(50%);
-}
-
-.card__image_filter-five {
-  filter: invert(100%);
-}
-
-.card__image_filter-six {
-  filter: grayscale(90%);
-}
-
-.card__image_filter-eight {
-  filter: brightness(130%) saturate(200%);
-}
-
-.blur {
-  filter: blur(6px);
-}*/
