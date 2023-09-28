@@ -1,12 +1,12 @@
 :root.theme-dark {
     --title-font-weight: 785;
     --text-font-weight: 465;
-    --accent-color: #00CC14;
-    --button-hover-color: #00CC14;
-    --bg-image-color_2: #007f0c;
-    --bg-image-color_3: #004306;
-    --bg-color: #000;
-    --bg-image-color_1: #000;
+    --accent-color: #ffa9e9;
+    --button-hover-color: #ffa9e9;
+    --bg-image-color_2: #ffa9e9;
+    --bg-image-color_3: #ffa9e9;
+    --bg-color: #000000f0;
+    --bg-image-color_1: #000000f0;
     --heart-color: #FF0000;
 }
 
@@ -17,9 +17,11 @@
     --bg-image-color_2: #e7e7e7;
     --bg-image-color_3: #1a1a1a;
     --bg-color: #FFF;
-    --accent-color: #000;
+    --accent-color: #000000f0;
     --heart-color: #FF0000;
     --button-hover-color: #FFF;
+    --background-color: #fffffff0;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,12 +29,12 @@
 :root {
         --title-font-weight: 785;
         --text-font-weight: 465;
-        --bg-image-color_2: #007f0c;
-        --bg-image-color_3: #004306;
-        --accent-color: #00CC14;
-        --button-hover-color: #00CC14;
-        --bg-color: #000;
-        --bg-image-color_1: #000;
+        --bg-image-color_2: #ffa9e9;
+        --bg-image-color_3: #ffa9e9;
+        --accent-color: #ffa9e9;
+        --button-hover-color: #ffa9e9;
+        --bg-color: #000000f0;
+        --bg-image-color_1: #000000f0;
         --heart-color: #FF0000;
 }
 }

@@ -6,9 +6,7 @@
   font-variation-settings: "wght" var(--text-font-weight);
   color: var(--accent-color);
   background-color: var(--bg-color);
-
-  background-image: repeating-linear-gradient(90deg, var(--bg-image-color_1) 0px 2px, transparent 2px 4px), repeating-linear-gradient(var(--bg-image-color_1) 0px 2px, transparent 2px 4px),
-      linear-gradient(var(--bg-image-color_2) 0.01%, var(--bg-image-color_3));
+  background-image: url("../images/aaaa.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -22,6 +20,7 @@
   margin: 0px auto 102px;
   font-family: var(--accent-font);
   border: 2px solid var(--accent-color);
+  background-color: var(--bg-color);
 }
 
 .header__logo {
@@ -195,6 +194,12 @@
   block-size: 100%;
 }
 
+.card__image__box__video {
+  position: relative;
+  display: flex;
+  block-size: 100%;
+}
+
 .card__image {
   inline-size: 100%;
   object-fit: cover;
@@ -294,6 +299,7 @@
   align-items: center;
   margin: 4px auto 100px;
   padding: 15px 20px;
+  text-decoration: none;
 }
 
 .save-button-icon {
@@ -319,6 +325,10 @@
   .card__image__box {
       display: block;
   }
+
+  .card__image__box__video {
+    display: block;
+}
 
   .save-button {
       flex-direction: row;
